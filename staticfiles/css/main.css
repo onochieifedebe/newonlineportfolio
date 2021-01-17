@@ -1,0 +1,52 @@
+h7{
+    color: gray
+}
+
+body{
+	background-color:#F8F8F8!important;
+}
+
+#profile-wrapper{
+	text-align: center;
+}
+
+#profile-pic{
+	width:150px;
+	height: 150px;
+	border-radius: 10%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+#profile-pic2{
+	width:150px;
+	height: 150px;
+	border-radius: 55%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+ul{
+	padding: 0;
+    list-style-type: none;
+}
+
+
+.social-links ul, li{
+	list-style-type:none;
+	display: inline-block;
+}
+
+.social{
+	width:25px;
+	height: 25px;
+}
+
+h3{
+    color: red
+}
+
+.mail{
+    width:15px;
+    height:15px
+}

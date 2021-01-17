@@ -1,0 +1,47 @@
+{% load static %}
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Contact Me</title>
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    {% include 'navbar.html' %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-body h-100  border-info" id="profile-wrapper">
+                    <h4>Contact Details</h4>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-body h-100  border-info" id="profile-wrapper">
+                    <h7><u>Email</u></h7>
+                    <p>oifedebe@bulldogs.aamu.edu</p>
+                    <h7><u>LinkedIn</u></h7>
+                    <a href="https://www.linkedin.com/in/onochieifedebe/" target="_blank">
+                        <p>https://www.linkedin.com/in/onochieifedebe/</p>
+                    </a>
+                    <h7><u>Github</u></h7>
+                    <a href="https://github.com/onochieifedebe" target="_blank">
+                        <p>https://github.com/onochieifedebe</p>
+                    </a>
+                    <h7><u>Handshake</u></h7>
+                    <a href="https://app.joinhandshake.com/users/23565649" target="_blank">
+                        <p>https://app.joinhandshake.com/users/23565649</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

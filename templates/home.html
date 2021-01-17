@@ -1,0 +1,182 @@
+{% load static %}
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Onochie's Portfolio </title>
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    {% include 'navbar.html' %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-body h-100  border-info">
+                    <img src="{% static 'images/portfolio.jpeg' %}">
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100  border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/facepicture.jpg' %}">
+                    <br>
+                    <h4>Hi I'm Onochie!</h4>
+                    <p>M.Eng (Candidate) Systems & Materiel Engineering | Lean Six Sigma Certified | IBM Certified
+                        Professional Data Scientist.</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100  border-info">
+                    <img id="profile-pic" src="{% static 'images/forhire.jpg' %}">
+                    <br>
+                    <p>A high achieving Systems Engineering Master's candidate with outstanding skills in coding,
+                        problem-solving and critical thinking, who is intellectually curious, collaborative, and always
+                        willing to take control of a project and see it to fruition.</p>
+                    <br>
+                    <p> I built this Website using Python, Django and HTML/CSS as an avenue to showcase my projects.</p>
+                    <h6> Source codes for all my projects including this website will be on github. Just click the logo
+                        below</h6>
+                    <ul class="social-links">
+                        <li><a href="https://www.linkedin.com/in/onochieifedebe/" target="_blank"><img class="social"
+                                    src="{% static 'images/linkedin.png' %}"></a></li>
+                        <li><a href="https://github.com/onochieifedebe" target="_blank"><img class="social"
+                                    src="{% static 'images/github.png' %}"> </a></li>
+                    </ul>
+                    <ul class="social-links">
+                        <li><img class="social" src="{% static 'images/gmaillogo.png' %}"></li>
+                        <li>
+                            <h7> oifedebe@bulldogs.aamu.edu</h7>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100  border-info">
+                    <h4>Skills</h4>
+                    <br>
+                    <p> <u><strong>Programming Languages:</strong></strong></u> Python, JavaScript, Java, HTML/CSS, Dart
+                    </p>
+                    <p> <u><strong>FrameWorks:</strong></u> Web Developement(Django, Flasks), Mobile
+                        Development(Flutter) </p>
+                    <p> <u><strong>Cloud Platforms:</strong></u> IBM Cloud, AWS, Google Cloud</p>
+                    <p> <u><strong>Others:</strong></u> Systems Modeling Language(SysML), Exploratory Data Analysis,
+                        Statistical Machine Learning Algorithms</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100  border-info">
+                    <h4>Education</h4>
+                    <br>
+                    <h6><strong>MASTER OF ENGINEERING (M.ENG)</strong></h6>
+                    <h6>Systems & Materiel Engineering,</h6>
+                    <h6> Alabama A&M University. May, 2021.</h6>
+                    <h6> GPA: 4.0</h6>
+                    <br>
+                    <h6><strong>BACHELOR OF SCIENCE (BSc.)</strong></h6>
+                    <h6>Mechanical Engineering,</h6>
+                    <h6> Alabama A&M University</h6>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-body h-100  border-info">
+                    <div id="profile-wrapper">
+                        <h3><u><strong>Current Project</strong></u></h3>
+                    </div>
+                    <div id="profile-wrapper">
+                        <h3><u><strong>Systems Engineering Graduate Project</strong></u></h3>
+                    </div>
+                    <br>
+                    <div id="profile-wrapper">
+                        <h3>Optimizing Patient Flow and Emergency Department Operations</h3>
+                    </div>
+                    <img src="{% static 'images/erdepartment.jpg' %}">
+                    <br>
+                    <p> This project will research and understand patient flow features like efficiency and cycle times.
+                    </p>
+                    <p> This project will also look into systems thinking that can lead to increased predictability,
+                        improved forecasting and reduced variation in Emergency Department Operations</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-body h-100  border-info">
+                    <div id="profile-wrapper">
+                        <h3><u><strong>Featured Projects</strong></u></h3>
+                    </div>
+                    <a href="https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/dfddc203-a245-44bc-b35c-65b923a3c3f5/view?access_token=cf9d3f88d73b30ca55c67362f08eba3e374a19baedcf509b50b87ffd447a012d"
+                        target="_blank">
+                        <h2 style="text-align:center">Clustering-Neighborhoods-in-Toronto-Canada</h2>
+                    </a>
+                    <br>
+                    <img src="{% static 'images/canadaclusterjj.jpg' %}">
+                    <br>
+                    <p> The goal of the project is to use a clustering algorithm, K-Means to be precise, to segment
+                        neighborhoods in the North York Borough of Toronto.</p>
+                    <p> In this project, I will be web scraping data from
+                        https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M. This data will be the
+                        foundation of this project as it will contain the Postal Codes, Boroughs and Neighborhoods in
+                        Toronto, Canada.</p>
+                    <h7> Just click the logo below for source code to this project</h7>
+                    <ul class="social-links">
+                        <li><a href="https://github.com/onochieifedebe/Segment-Cluster-Neighborhoods-in-Toronto-Canada"
+                                target="_blank"><img class="social" src="{% static 'images/github.png' %}"> </a></li>
+                        <li><a href="https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/dfddc203-a245-44bc-b35c-65b923a3c3f5/view?access_token=cf9d3f88d73b30ca55c67362f08eba3e374a19baedcf509b50b87ffd447a012d"
+                                target="_blank"><img class="social" src="{% static 'images/ibm-sol.jpg' %}"> </a></li>
+                        <li>
+                            <h7> IBM Cloud</h7>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-body h-100  border-info ">
+                    <div id="profile-wrapper">
+                        <h3><u><strong>Featured Projects</strong></u></h3>
+                    </div>
+                    <a href="https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/22a73026-ad06-4050-bbd2-797600d8ddca/view?access_token=f881fa962101c1ae5dc22162e4895ab9f302f2f0d072007819c7b573aa8e7424"
+                        target="_blank">
+                        <h2 style="text-align:center">Stock Data Analysis Project</h2>
+                    </a>
+                    <br>
+                    <img src="{% static 'images/stockmarket.jpeg' %}">
+                    <br>
+                    <p> The objective of this project was to perform data analysis, visualization and calculate stock
+                        daily return on AAPL, BA, AT&T, MGM, AMZN, IBM, TSLA, GOOG STOCKS AND THE S&P500 Index. The
+                        dataset for this project will have data for these stocks from 01/12/2012 to 08/11/2020.</p>
+                    <h7> Just click the logo below for source code to this project</h7>
+                    <ul class="social-links">
+                        <li><a href="https://github.com/onochieifedebe/Stock-Data-Analysis-Project" target="_blank"><img
+                                    class="social" src="{% static 'images/github.png' %}"> </a></li>
+                        <li><a href="https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/22a73026-ad06-4050-bbd2-797600d8ddca/view?access_token=f881fa962101c1ae5dc22162e4895ab9f302f2f0d072007819c7b573aa8e7424"
+                                target="_blank"><img class="social" src="{% static 'images/ibm-sol.jpg' %}"> </a></li>
+                        <li>
+                            <h7> IBM Cloud</h7>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+
+    </div>
+</body>
+
+</html>
