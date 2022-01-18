@@ -25,7 +25,7 @@ SECRET_KEY = 'tntnkd2h#$c_8+z+o__kl8n(m*iff3+e)n6iw5(lm^)him-&-2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['onochieifedebe.herokuapp.com']
+ALLOWED_HOSTS = ['onochieifedebe.azurewebsites.net']
 
 
 # Application definition
